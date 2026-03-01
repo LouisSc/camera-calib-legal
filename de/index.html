@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - Camera Calibration App</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 6px;
+        }
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        p, li {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid #dee2e6;
+        }
+        th {
+            background: #f1f3f5;
+            font-weight: 600;
+        }
+        .highlight {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 12px 16px;
+            margin: 16px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        a { color: #1976d2; }
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Datenschutzerklärung</h1>
+        <p class="last-updated">Zuletzt aktualisiert: 1. März 2026</p>
+
+        <p>Diese Datenschutzerklärung beschreibt, wie Louis Schestak ("ich", "der Entwickler") Daten in der <strong>Camera Calibration</strong> App (die "App") verarbeitet. Die App wird als werbefinanzierte Anwendung bereitgestellt. Durch die Nutzung der App stimmen Sie den in dieser Erklärung beschriebenen Praktiken zu.</p>
+
+        <div class="highlight">
+            <strong>Wichtiger Hinweis:</strong> Alle Bildverarbeitungs- und Kalibrierungsdaten bleiben auf Ihrem Gerät. Es werden keine Bilder oder Kalibrierungsergebnisse auf einen Server hochgeladen.
+        </div>
+
+        <h2>1. Erhebung und Verwendung von Daten</h2>
+
+        <h3>1.1 Daten, die auf Ihrem Gerät verbleiben (nicht von mir erhoben)</h3>
+        <p>Die folgenden Daten werden <strong>ausschließlich auf Ihrem Gerät</strong> erstellt und gespeichert und niemals an mich oder einen Drittanbieter-Server übertragen:</p>
+        <ul>
+            <li><strong>Kamerabilder:</strong> Fotos, die für Kalibrierungszwecke aufgenommen oder importiert werden, werden lokal im privaten Speicher der App gespeichert.</li>
+            <li><strong>Kalibrierungsdaten:</strong> Kameramatrizen, Verzerrungskoeffizienten, erkannte Eckpunkte und andere Kalibrierungsergebnisse.</li>
+            <li><strong>App-Einstellungen:</strong> Spracheinstellungen, Display-Kalibrierungswerte, UI-Präferenzen.</li>
+            <li><strong>Gerätemodellinformationen:</strong> Hersteller und Modellname Ihres Geräts werden lokal gelesen, um bei der Display-Kalibrierung zu helfen. Diese Informationen werden nicht übertragen.</li>
+        </ul>
+
+        <h3>1.2 Von Drittanbieterdiensten erhobene Daten</h3>
+        <p>Die App verwendet <strong>Google AdMob</strong> zur Anzeige von Werbung. Google AdMob kann bestimmte Daten erheben, wie in Abschnitt 5 beschrieben.</p>
+
+        <h2>2. Berechtigungen</h2>
+        <p>Die App fordert die folgenden Berechtigungen an:</p>
+
+        <table>
+            <tr>
+                <th>Berechtigung</th>
+                <th>Zweck</th>
+                <th>Erforderlich</th>
+            </tr>
+            <tr>
+                <td>Kamera</td>
+                <td>Aufnahme von Bildern von Kalibrierungsmustern (z.B. Schachbrettmuster) für die Kamerakalibrierung</td>
+                <td>Optional</td>
+            </tr>
+            <tr>
+                <td>Fotobibliothek / Speicher (Lesen)</td>
+                <td>Import vorhandener Bilder aus Ihrer Galerie zur Kalibrierung</td>
+                <td>Optional</td>
+            </tr>
+            <tr>
+                <td>Speicher (Schreiben)</td>
+                <td>Speichern von Kalibrierungsbildern und Export von Kalibrierungsdaten</td>
+                <td>Optional</td>
+            </tr>
+            <tr>
+                <td>Internet</td>
+                <td>Laden und Anzeigen von Werbung (Google AdMob)</td>
+                <td>Ja (für Werbung)</td>
+            </tr>
+            <tr>
+                <td>Netzwerkstatus</td>
+                <td>Prüfung der Netzwerkverfügbarkeit für das Laden von Werbung</td>
+                <td>Ja (für Werbung)</td>
+            </tr>
+        </table>
+
+        <p>Kamera- und Speicherberechtigungen werden nur angefordert, wenn Sie die entsprechenden Funktionen aktiv nutzen. Sie können diese Berechtigungen verweigern und trotzdem andere Teile der App verwenden.</p>
+
+        <h2>3. Bildverarbeitung</h2>
+        <p>Die gesamte Bildverarbeitung, einschließlich der Erkennung von Schachbrettmustern und der Berechnung der Kamerakalibrierung, wird <strong>vollständig auf Ihrem Gerät</strong> mit der OpenCV-Bibliothek durchgeführt. Im Einzelnen:</p>
+        <ul>
+            <li>Es werden keine Bilder auf einen Server hochgeladen.</li>
+            <li>Es werden keine Bilddaten mit Dritten geteilt.</li>
+            <li>Bilder werden im privaten Verzeichnis der App gespeichert und sind für andere Apps nicht zugänglich.</li>
+            <li>Sie können alle gespeicherten Bilder jederzeit innerhalb der App löschen.</li>
+        </ul>
+
+        <h2>4. Rechtsgrundlage der Verarbeitung (DSGVO Art. 6)</h2>
+        <p>Die App verarbeitet Daten auf folgenden Rechtsgrundlagen:</p>
+        <ul>
+            <li><strong>Einwilligung (Art. 6 Abs. 1 lit. a DSGVO):</strong> Personalisierte Werbung über Google AdMob, basierend auf Ihrer Einwilligung über den Einwilligungsdialog der User Messaging Platform (UMP).</li>
+            <li><strong>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO):</strong> Verarbeitung von In-App-Kauftransaktionen zur Erfüllung Ihres Kaufs der Funktion "Werbung entfernen".</li>
+            <li><strong>Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO):</strong> Speicherung lokaler App-Einstellungen und -Präferenzen; Anzeige kontextueller (nicht personalisierter) Werbung zur Finanzierung der kostenlosen Version der App.</li>
+        </ul>
+
+        <h2>5. Werbung (Google AdMob)</h2>
+        <p>Die App zeigt Werbung an, die von <strong>Google AdMob</strong> bereitgestellt wird. Die App verwendet die User Messaging Platform (UMP) von Google, um die Personalisierung von Werbung basierend auf Ihrer Einwilligung zu verwalten.</p>
+
+        <h3>5.1 Von Google AdMob erhobene Daten</h3>
+        <p>Google AdMob kann folgende Daten erheben und verarbeiten:</p>
+        <ul>
+            <li>IP-Adresse</li>
+            <li>Gerätekennungen (z.B. Werbe-ID)</li>
+            <li>Allgemeine Geräteinformationen (Betriebssystemversion, Gerätemodell, Bildschirmgröße)</li>
+            <li>Daten zur Werbeinteraktion (Impressionen, Klicks)</li>
+        </ul>
+        <p>Einzelheiten zur Datenverarbeitung durch Google finden Sie in der <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Google</a> und unter <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Wie Google Daten verwendet, wenn Sie Websites oder Apps unserer Partner nutzen</a>.</p>
+
+        <h3>5.2 DSGVO-Einwilligung (Europäischer Wirtschaftsraum)</h3>
+        <p>Wenn Sie sich im Europäischen Wirtschaftsraum (EWR) befinden, zeigt die App vor dem Laden von Werbung einen Einwilligungsdialog (bereitgestellt durch die User Messaging Platform von Google) an. Sie können:</p>
+        <ul>
+            <li>Ihre Einwilligung für personalisierte oder nicht personalisierte Werbung erteilen oder verweigern</li>
+            <li>Ihre Einwilligungseinstellungen jederzeit über <strong>Einstellungen &gt; Datenschutzeinstellungen &gt; Werbeeinwilligung verwalten</strong> in der App ändern</li>
+        </ul>
+
+        <h3>5.3 Werbefreie Option</h3>
+        <p>Die App bietet die Möglichkeit, Werbung durch einen In-App-Kauf zu entfernen. Wenn Werbung deaktiviert ist, werden keine werbebezogenen Daten erhoben oder übertragen.</p>
+
+        <h2>6. Datenspeicherung und Sicherheit</h2>
+        <ul>
+            <li>Alle App-Daten (Bilder, Kalibrierungsergebnisse, Einstellungen) werden lokal auf Ihrem Gerät im privaten Speicherbereich der App gespeichert.</li>
+            <li>Es werden keine Daten von mir auf externen Servern gespeichert.</li>
+            <li>Jegliche Netzwerkkommunikation (für Werbung) verwendet verschlüsselte HTTPS-Verbindungen.</li>
+            <li>Sie können alle lokal gespeicherten Daten jederzeit über die App-Einstellungen oder durch Deinstallation der App löschen.</li>
+        </ul>
+
+        <h2>7. Datenexport und -weitergabe</h2>
+        <p>Die App ermöglicht den Export von Kalibrierungsergebnissen in verschiedenen Formaten (JSON, CSV, OpenCV YAML/XML, MATLAB). Wenn Sie die Export- oder Teilen-Funktion verwenden:</p>
+        <ul>
+            <li>Die exportierte Datei wird lokal auf Ihrem Gerät erstellt.</li>
+            <li>Das Teilen erfolgt über den nativen Teilen-Mechanismus Ihres Geräts (z.B. Android ShareSheet, iOS Share Sheet).</li>
+            <li>Der Entwickler hat keinen Zugriff auf exportierte oder geteilte Daten.</li>
+        </ul>
+
+        <h2>8. Speicherdauer</h2>
+        <p>Da die App keine Daten auf externen Servern erhebt, gelten folgende Speicherfristen:</p>
+        <ul>
+            <li><strong>Kalibrierungsbilder und Sitzungsdaten:</strong> Werden lokal auf Ihrem Gerät gespeichert, bis Sie diese in der App löschen oder die App deinstallieren.</li>
+            <li><strong>App-Einstellungen und -Präferenzen:</strong> Werden lokal gespeichert, bis Sie die App-Daten löschen oder die App deinstallieren.</li>
+            <li><strong>Werbebezogene Daten:</strong> Die Speicherung richtet sich nach der <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Google</a>.</li>
+            <li><strong>Kaufbelege:</strong> Werden von Google Play bzw. dem Apple App Store gemäß deren jeweiligen Aufbewahrungsrichtlinien verwaltet.</li>
+        </ul>
+
+        <h2>9. Datenschutz von Kindern</h2>
+        <p>Die App erhebt wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren (bzw. dem in Ihrer Rechtsordnung geltenden Alter). Die App ist ein technisches Kalibrierungswerkzeug, das für erwachsene Benutzer konzipiert ist. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind über diese App personenbezogene Daten bereitgestellt hat, kontaktieren Sie mich bitte, damit ich geeignete Maßnahmen ergreifen kann.</p>
+
+        <h2>10. Drittanbieterdienste</h2>
+        <p>Die App verwendet die folgenden Drittanbieterdienste, die Daten erheben können:</p>
+
+        <table>
+            <tr>
+                <th>Dienst</th>
+                <th>Zweck</th>
+                <th>Datenschutzerklärung</th>
+            </tr>
+            <tr>
+                <td>Google AdMob</td>
+                <td>Werbung</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Datenschutzerklärung</a></td>
+            </tr>
+            <tr>
+                <td>Google UMP SDK</td>
+                <td>DSGVO-Einwilligungsverwaltung</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Datenschutzerklärung</a></td>
+            </tr>
+            <tr>
+                <td>Google Play Billing / Apple StoreKit</td>
+                <td>In-App-Kaufabwicklung</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> / <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a></td>
+            </tr>
+        </table>
+
+        <p>Die App verwendet <strong>keine</strong> Analyse-, Absturzberichts- oder Tracking-Dienste.</p>
+
+        <h2>11. Datenlöschung</h2>
+        <p>Sie können Ihre Daten jederzeit löschen:</p>
+        <ul>
+            <li><strong>Einzelne Bilder:</strong> Löschen Sie bestimmte Kalibrierungsbilder innerhalb der App.</li>
+            <li><strong>Alle Kalibrierungsdaten:</strong> Verwenden Sie die Option in der App, um alle Kalibrierungsbilder und -daten zu löschen.</li>
+            <li><strong>Alle App-Daten:</strong> Deinstallieren Sie die App, um alle lokal gespeicherten Daten zu entfernen.</li>
+            <li><strong>Werbeeinwilligung:</strong> Setzen Sie Ihre Werbe-ID über die Systemeinstellungen Ihres Geräts zurück.</li>
+        </ul>
+
+        <h2>12. Ihre Rechte (DSGVO)</h2>
+        <p>Wenn Sie sich im EWR befinden, haben Sie folgende Rechte bezüglich der von Drittanbieter-Werbediensten verarbeiteten Daten:</p>
+        <ul>
+            <li><strong>Auskunftsrecht (Art. 15 DSGVO):</strong> Sie können Auskunft über die durch Werbung erhobenen Daten verlangen.</li>
+            <li><strong>Recht auf Löschung (Art. 17 DSGVO):</strong> Sie können Ihre Werbe-ID zurücksetzen oder Ihre Einwilligung widerrufen.</li>
+            <li><strong>Widerspruchsrecht (Art. 21 DSGVO):</strong> Sie können der personalisierten Werbung über den Einwilligungsdialog oder die Geräteeinstellungen widersprechen.</li>
+            <li><strong>Recht auf Datenübertragbarkeit (Art. 20 DSGVO):</strong> Sie können Ihre Kalibrierungsdaten in maschinenlesbaren Formaten (JSON, CSV, YAML, XML) direkt aus der App exportieren.</li>
+            <li><strong>Recht auf Widerruf der Einwilligung (Art. 7 DSGVO):</strong> Sie können Ihre Werbeeinwilligung jederzeit über Einstellungen &gt; Datenschutzeinstellungen in der App ändern.</li>
+            <li><strong>Beschwerderecht (Art. 77 DSGVO):</strong> Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Eine Liste der zuständigen Behörden in Deutschland finden Sie unter <a href="https://www.bfdi.bund.de/" target="_blank" rel="noopener">www.bfdi.bund.de</a>.</li>
+        </ul>
+        <p>Da ich keine personenbezogenen Daten auf meinen Servern erhebe oder speichere, sollten die meisten Betroffenenanfragen bezüglich werbebezogener Daten an <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> gerichtet werden.</p>
+
+        <h2>13. Haftungsausschluss</h2>
+        <p>Die App wird "wie besehen" und "wie verfügbar" ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt. Der Entwickler übernimmt keine Gewähr dafür, dass:</p>
+        <ul>
+            <li>Die von der App erzeugten Kalibrierungsergebnisse genau, vollständig oder für einen bestimmten Zweck geeignet sind.</li>
+            <li>Die App unterbrechungsfrei, fehlerfrei oder frei von Mängeln funktioniert.</li>
+            <li>Durch die Nutzung der App erzielte Ergebnisse zuverlässig sind oder Ihren Anforderungen entsprechen.</li>
+        </ul>
+        <p>Die Ergebnisse der Kamerakalibrierung hängen von vielen externen Faktoren ab, darunter Bildqualität, Lichtverhältnisse, Genauigkeit des Kalibrierungsmusters und korrekte Verwendung der App. <strong>Verlassen Sie sich nicht ausschließlich auf die Ergebnisse dieser App für sicherheitskritische, professionelle oder wissenschaftliche Anwendungen</strong> ohne unabhängige Überprüfung. Der Entwickler übernimmt keine Haftung für Schäden, Verluste oder Folgen, die sich aus der Nutzung oder dem Vertrauen auf die von der App erzeugten Kalibrierungsergebnisse ergeben.</p>
+
+        <h2>14. Änderungen dieser Datenschutzerklärung</h2>
+        <p>Ich kann diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Datum "Zuletzt aktualisiert" veröffentlicht. Es wird empfohlen, diese Datenschutzerklärung regelmäßig auf Änderungen zu überprüfen.</p>
+
+        <h2>15. Kontakt</h2>
+        <p>Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung oder den Datenpraktiken der App haben, kontaktieren Sie mich bitte unter:</p>
+        <p><strong>Louis Schestak</strong><br>
+        E-Mail: <a href="mailto:schestaklouis@gmail.com">schestaklouis@gmail.com</a></p>
+    </div>
+</body>
+</html>
